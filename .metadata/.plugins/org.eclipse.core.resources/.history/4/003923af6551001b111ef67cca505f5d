@@ -1,0 +1,30 @@
+package com.mission36.microservice.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mission36.microservice.entity.Cource;
+import com.mission36.microservice.entity.Student;
+import com.mission36.microservice.repo.CourceRepo;
+
+@Service
+public class CourceService {
+
+	@Autowired
+	CourceRepo courceRep;
+
+	public Cource registerAStudentCource(Student student, Long cource_id) {
+		// TODO Auto-generated method stub
+
+		Cource cource = null; Student student = null;
+
+		if (cource_id != null) {
+			cource = courceRep.findById(cource_id).orElse(new Cource());
+			if (!cource.getCource_name().equalsIgnoreCase("dummy")) {
+				
+			}
+		}
+		return null;
+	}
+
+}

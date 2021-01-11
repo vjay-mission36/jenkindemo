@@ -1,0 +1,21 @@
+package com.mission36.microservice.entity;
+
+import java.util.Set;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "Cource_tbl")
+public class Cource {
+	
+	private Long id;
+	private String cource_name;
+	private Set<Student> student_registered;
+	private Set<Topic> topics;
+	
+	
+	
+	
+
+}

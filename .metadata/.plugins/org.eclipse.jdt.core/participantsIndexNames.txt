@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+/Users/vijaysekhar/stsws/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4121845239.index
+/spring-web-mvc1/src/main/java
+/Users/vijaysekhar/stsws/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2792152779.index
+/varre-nirmala-vijay-sekhar-be-hybris-spring-test-luminescent/src/main/java

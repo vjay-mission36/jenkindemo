@@ -1,0 +1,14 @@
+package com.mission36.microservice.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.mission36.microservice.service.StudentService;
+
+@RestController
+public class StudentController {
+	
+	@Autowired
+	StudentService studService;
+
+}

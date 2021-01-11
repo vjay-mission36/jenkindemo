@@ -1,0 +1,7 @@
+package com.mission36.microservice.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface StudentRepositary extends JpaRepository<T, ID> {
+
+}

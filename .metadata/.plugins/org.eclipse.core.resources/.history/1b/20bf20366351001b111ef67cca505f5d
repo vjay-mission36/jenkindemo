@@ -1,0 +1,8 @@
+package com.mission36.microservice.repo;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface CourceRepo {
+
+}

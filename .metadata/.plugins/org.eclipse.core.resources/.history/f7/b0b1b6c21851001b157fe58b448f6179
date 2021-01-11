@@ -1,0 +1,8 @@
+package com.mission36.microservice.entity;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Topic {
+
+}

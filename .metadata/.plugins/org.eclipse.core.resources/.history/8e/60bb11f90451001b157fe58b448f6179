@@ -1,0 +1,5 @@
+package com.mission36.microservice.entity;
+
+public class Student {
+
+}
